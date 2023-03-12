@@ -1,0 +1,23 @@
+.button {
+  background: transparent;
+  border: none;
+  padding: 14px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 0 0 rgb(0 0 0 / 12%), 0 0 0 rgb(0 0 0 / 14%), 0 0 0 rgb(0 0 0 / 20%);
+  transition: opacity .3s ease;
+
+  @media (hover: hover) {
+    &:hover {
+      opacity: .7;
+    }
+  }
+
+  &._select {
+    background: linear-gradient(230.09deg,#50e20c,#14b9ed 92.55%);
+  }
+
+  &._cancel {
+    background: linear-gradient(230.09deg,#ff0000,#ede214 92.55%);
+  }
+}
